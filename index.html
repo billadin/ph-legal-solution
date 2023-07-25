@@ -10,6 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://kit.fontawesome.com/e5572b8fe9.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -163,8 +164,8 @@
         <!-- Practice area end -->
 
         <!-- Our Clients start -->
-        <section class="w-[95%] md:w-[90%] lg:w-[85%] xl:w-[75%] 2xl:w-[65%] mx-auto">
-            <div class="container px-6 py-10 mx-auto">
+        <section class="w-[95%] md:w-[90%] lg:w-[85%] xl:w-[75%] 2xl:w-[65%] mx-auto mb-28">
+            <div class="container w-full">
                 <h1 class="text-2xl font-extrabold text-center text-black capitalize lg:text-4x garamond mb-6">
                     What Our Client Say
                 </h1>
@@ -175,7 +176,7 @@
                 </p>
         
                 <div
-                    class="flex items-center max-w-6xl mx-auto mt-16 py-24 px-12 bg-[url('./images/banner.png'),_url('./images/Rectangle7.png')] bg-blend-overlay bg-center bg-cover bg-no-repeat">
+                    class="flex items-center md:mx-auto mt-16 py-24 px-12 bg-[url('./images/banner.png'),_url('./images/Rectangle7.png')] bg-blend-overlay bg-center bg-cover bg-no-repeat rounded-lg">
                     <button title="left arrow" class="hidden p-2 text-white lg:block">
                         <i class="fa-solid fa-angle-left fa-xl"></i>
                     </button>
@@ -211,6 +212,55 @@
                 </div>
         </section>
         <!-- Our clients section end -->
+
+        <!-- FAQ section start -->
+        <section class="md:w-[90%] lg:w-[85%] xl:w-[75%] 2xl:w-[65%] mx-auto mb-28">
+            <h2 class="text-black text-[40px] font-extrabold garamond text-center mb-6">Frequently Asked Any Questions</h2>
+            <p class="max-w-[60%] poppins text-[#707070] mx-auto text-center mb-16">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            <div class="item-container flex flex-col lg:flex-row items-center gap-8 px-3 md:px-0">
+                <div class="accordian flex-1 flex flex-col gap-8">
+                    <div class="collapse collapse-plus bg-base-200 p-6">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-2xl font-extrabold garamond">
+                            1. Are application fee waivers available?
+                        </div>
+                        <div class="collapse-content">
+                            <p class="poppins text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200 p-6">
+                        <input type="radio" name="my-accordion-3"/>
+                        <div class="collapse-title text-2xl font-extrabold garamond">
+                            1. Are application fee waivers available?
+                        </div>
+                        <div class="collapse-content">
+                            <p class="poppins text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200 p-6">
+                        <input type="radio" name="my-accordion-3"/>
+                        <div class="collapse-title text-2xl font-extrabold garamond">
+                            1. Are application fee waivers available?
+                        </div>
+                        <div class="collapse-content">
+                            <p class="poppins text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200 p-6">
+                        <input type="radio" name="my-accordion-3"/>
+                        <div class="collapse-title text-2xl font-extrabold garamond">
+                            1. Are application fee waivers available?
+                        </div>
+                        <div class="collapse-content">
+                            <p class="poppins text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1">
+                    <img src="./images/faq.png">
+                </div>
+            </div>
+        </section>
     </main>
     
 </body>
